@@ -1,0 +1,30 @@
+.contact-info {
+  font-size: 18px;
+  color: #383838;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mat-icon {
+  margin-right: 10px;
+}
+
+.introduction {
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+  font-size: 18px;
+  transition: 0.3s;
+  
+  &:hover {
+    color: #9aa6ee;
+  }
+}

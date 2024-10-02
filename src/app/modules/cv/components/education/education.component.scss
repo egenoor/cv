@@ -1,0 +1,12 @@
+.education-row {
+  display: flex;
+  justify-content: space-between;
+
+  .education-length {
+    color: #848484;
+  }
+
+  .university {
+    font-weight: 600;
+  }
+}
