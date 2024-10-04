@@ -5,7 +5,7 @@ footer {
   background-color: #c0c6e0;
   bottom: 0;
 
-  @media (min-weight: $medium) {
+  @media (min-width: $medium) {
     position: relative;
   }
 
