@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "deploy": "ng deploy --base-href=/cv/",
+    "deploy": "ng deploy --base-href=/cv/ --repo=https://github.com/egenoor/cv.git",
     "build": "ng build --base-href=/cv/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
