@@ -10,6 +10,10 @@
     align-items: center;
   }
 
+  @media (min-width: $medium) {
+    padding: 20px;
+  }
+
   .descriptionwork {
     height: 100%;
     display: flex;
@@ -21,6 +25,10 @@
     @media (max-width: $small) {
       margin-bottom: 50px;
     }
+
+    @media (min-width: $medium) {
+      margin-right: 50px;
+    }
   }
   
   .info-section {
@@ -30,6 +38,10 @@
 
     @media (max-width: $small) {
       padding: 10px;
+    }
+
+    @media (min-width: $medium) {
+      padding: 8px;
     }
   }
 }
