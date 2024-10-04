@@ -1,21 +1,36 @@
+@import "../../../_variables.scss";
 .home {
   padding: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
+  @media (max-width: $small) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .descriptionwork {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+
+    @media (max-width: $small) {
+      margin-bottom: 50px;
+    }
+  }
+  
+  .info-section {
+    padding: 20px;
+    background-color: #c0c6e0;
+    border-radius: 10px;
+
+    @media (max-width: $small) {
+      padding: 10px;
+    }
+  }
 }
 
-.descriptionwork {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1000px;
-}
-
-.info-section {
-  padding: 20px;
-  background-color: #c0c6e0;
-  border-radius: 10px;
-}

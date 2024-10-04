@@ -17,8 +17,8 @@ import { WorkExperience } from '../../modules/cv/components/work-experience/work
     Education,
     Hobbies,
     Languages,
-    MatCardModule
+    MatCardModule,
   ],
   standalone: true
 })
-export default class HomeComponent{}
+export default class HomeComponent {}
