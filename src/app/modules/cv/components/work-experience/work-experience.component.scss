@@ -1,3 +1,5 @@
+@import "../../../../../variables";
+
 .experience-row {
   display: flex;
   justify-content: space-between;
@@ -6,11 +8,19 @@
     font-size: 18px;
     font-weight: 600;
     color: #9aa6ee;
+
+    @media (max-width: $xsmall) {
+      font-size: 15px;
+    }
   }
   
   .company {
     font-size: 18px;
     font-weight: 600;
+
+    @media (max-width: $xsmall) {
+      font-size: 15px;
+    }
   }
   
 }

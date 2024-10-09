@@ -1,5 +1,6 @@
 @import "../../../../_variables.scss";
 footer {
+  height: $footer-height;
   position: fixed;
   min-width: 100%;
   background-color: #c0c6e0;
